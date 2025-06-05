@@ -1,0 +1,29 @@
+1748986239525	geckodriver	INFO	Listening on 127.0.0.1:59524
+1748986242572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\bakir\\AppData\\Local\\Temp\\rust_mozprofileSOaVUH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748986242900	Marionette	INFO	Marionette enabled
+1748986243063	Marionette	INFO	Listening on port 59534
+WebDriver BiDi listening on ws://127.0.0.1:59525
+Read port: 59534
+1748986243153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1748986244633	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: unreachable code after return statement
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: unreachable code after return statement
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://beacon.riskified.com/?shop=www.zara.com&sid=38f3d2e8-70c3-4978-b81e-58df88615394, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:317:10
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -1,0 +1,20 @@
+1748985957994	geckodriver	INFO	Listening on 127.0.0.1:59266
+1748985961085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\bakir\\AppData\\Local\\Temp\\rust_mozprofilemkgHG5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748985961306	Marionette	INFO	Marionette enabled
+1748985961477	Marionette	INFO	Listening on port 59275
+WebDriver BiDi listening on ws://127.0.0.1:59267
+Read port: 59275
+1748985961565	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1748985963286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: unreachable code after return statement
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.zara.com/vhiNXnm2F/mb45exrT/w/aO9cfJD73wfh/ahssI1QC/JS4WA0F/qRR0B, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://beacon.riskified.com/?shop=www.zara.com&sid=54c4274a-9893-4634-abba-9b7e5f00ba86, line 7: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

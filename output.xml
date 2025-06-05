@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.11.0 on win32)" generated="2025-06-05T15:16:34.570280" rpa="false" schemaversion="5">
+<suite id="s1" name="ZaraTest" source="c:\Users\bakir\Robot_Test\Tests\ZaraTest.robot">
+<test id="s1-t1" name="Zara Shopping Test" line="8">
+<kw name="Open Zara Home Page" owner="ZaraKeywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:34.850503" level="INFO">Opening browser 'firefox' to base url 'https://www.zara.com/tr/'.</msg>
+<arg>${HOME_URL}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-05T15:16:34.850503" elapsed="6.810270"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-05T15:16:41.660773" elapsed="0.272107"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-05T15:16:42.933550" level="INFO">Slept 1 second.</msg>
+<arg>${SHORT_WAIT}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-05T15:16:41.932880" elapsed="1.000670"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:42.934546" level="INFO">Clicking element 'xpath=//*[@id="onetrust-accept-btn-handler"]'.</msg>
+<arg>${ACCEPT_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-05T15:16:42.933550" elapsed="0.303802"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-05T15:16:44.238601" level="INFO">Slept 1 second.</msg>
+<arg>${SHORT_WAIT}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-05T15:16:43.238359" elapsed="1.000242"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:44.239528" level="INFO">Clicking element 'xpath=//button[@class='zds-button geolocation-modal__button zds-button--primary zds-button--small' and @data-qa-action='stay-in-store']/span[text()='Evet, Türkiye / Turkey internet sitesinde devam et']'.</msg>
+<arg>${COUNTRY}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-05T15:16:44.238601" elapsed="0.293557"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${HOME_HEADER}</arg>
+<arg>${WAIT_TIMEOUT}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2025-06-05T15:16:44.532158" elapsed="0.006973"/>
+</kw>
+<status status="PASS" start="2025-06-05T15:16:34.849417" elapsed="9.689714"/>
+</kw>
+<kw name="Open Menu" owner="ZaraKeywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:44.540128" level="INFO">Clicking element 'xpath=/html/body/div[2]/div/div[1]/div/div/header/button'.</msg>
+<arg>${MENU_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-05T15:16:44.540128" elapsed="0.337131"/>
+</kw>
+<status status="PASS" start="2025-06-05T15:16:44.539131" elapsed="0.338128"/>
+</kw>
+<kw name="Go To Dresses Section" owner="ZaraKeywords">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-05T15:16:45.878517" level="INFO">Slept 1 second.</msg>
+<arg>${SHORT_WAIT}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-05T15:16:44.878266" elapsed="1.000251"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:45.878517" level="INFO">Clicking element 'xpath=//span[@class='layout-categories-category__name' and text()='ELBİSE']'.</msg>
+<arg>${DRESSES_LINK}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-05T15:16:45.878517" elapsed="0.313163"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-05T15:16:48.191704" level="INFO">Slept 2 seconds.</msg>
+<arg>${MEDIUM_WAIT}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-05T15:16:46.191680" elapsed="2.000024"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:48.191704" level="INFO">Executing JavaScript:
+window.scrollBy(0, 3000)
+Without any arguments.</msg>
+<arg>window.scrollBy(0, 3000)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-06-05T15:16:48.191704" elapsed="0.013959"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-05T15:16:49.207303" level="INFO">Slept 1 second.</msg>
+<arg>${SHORT_WAIT}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-05T15:16:48.205663" elapsed="1.001640"/>
+</kw>
+<status status="PASS" start="2025-06-05T15:16:44.877259" elapsed="4.330044"/>
+</kw>
+<kw name="Select Dress By Name" owner="ZaraKeywords">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2025-06-05T15:16:59.545660" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-29.png"&gt;&lt;img src="selenium-screenshot-29.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-06-05T15:16:59.545660" level="FAIL">Element 'xpath=//img[@alt='Zara Koyu taba - MÜCEVHER YAKALI MİDİ ELBİSE']' not visible after 10 seconds.</msg>
+<arg>${BASIC_DRESS}</arg>
+<arg>${WAIT_TIMEOUT}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2025-06-05T15:16:49.209874" elapsed="10.343745">Element 'xpath=//img[@alt='Zara Koyu taba - MÜCEVHER YAKALI MİDİ ELBİSE']' not visible after 10 seconds.</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>${BASIC_DRESS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-05T15:16:59.553619" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>${MEDIUM_WAIT}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-06-05T15:16:59.553619" elapsed="0.000000"/>
+</kw>
+<arg>MÜCEVHER YAKALI MİDİ ELBİSE</arg>
+<status status="FAIL" start="2025-06-05T15:16:49.208889" elapsed="10.345731">Element 'xpath=//img[@alt='Zara Koyu taba - MÜCEVHER YAKALI MİDİ ELBİSE']' not visible after 10 seconds.</status>
+</kw>
+<kw name="Select Size" owner="ZaraKeywords">
+<arg>${SIZE}</arg>
+<status status="NOT RUN" start="2025-06-05T15:16:59.554620" elapsed="0.000996"/>
+</kw>
+<kw name="Go To Basket" owner="ZaraKeywords">
+<status status="NOT RUN" start="2025-06-05T15:16:59.555616" elapsed="0.000000"/>
+</kw>
+<kw name="Proceed To Checkout" owner="ZaraKeywords">
+<status status="NOT RUN" start="2025-06-05T15:16:59.556615" elapsed="0.000000"/>
+</kw>
+<kw name="Login &amp; Payment" owner="ZaraKeywords">
+<status status="NOT RUN" start="2025-06-05T15:16:59.557615" elapsed="0.000997"/>
+</kw>
+<kw name="Close Zara Browser" owner="ZaraKeywords">
+<status status="NOT RUN" start="2025-06-05T15:16:59.559604" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-06-05T15:16:34.848415" elapsed="24.711189">Element 'xpath=//img[@alt='Zara Koyu taba - MÜCEVHER YAKALI MİDİ ELBİSE']' not visible after 10 seconds.</status>
+</test>
+<status status="FAIL" start="2025-06-05T15:16:34.574340" elapsed="24.987257"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="ZaraTest" id="s1" pass="0" fail="1" skip="0">ZaraTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
