@@ -1,4 +1,3 @@
-
 # Zara Robot Framework Bot 🤖🛍️💅🌸🌺
 
 This project automates the process of shopping on the [Zara](https://www.zara.com/tr/) e-commerce website using **Robot Framework**, **Selenium**, and **Python** (on Firefox).  
